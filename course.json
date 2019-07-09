@@ -1,0 +1,236 @@
+{
+  "version": "1",
+  "title": "Spark基础",
+  "author": "admin",
+  "description": "Spark安装配置实验 Spark WordCount实验 Spark计算平均年龄 运用spark streaming进行实时日志分析 Hadoop Spark R Hadoop Spark R als Hadoop Spark R bisectingKmeans Hadoop Spark R fpm Hadoop Spark R k-means Hadoop Spark R kstest Hadoop Spark R naiveBayes Hadoop Spark R     AFT  survival regression Hadoop Spark R  svmLinear Hadoop Spark R generalized linear model Hadoop SparkR   gaussian mixture clustering Hadoop Spark R GBT classification Hadoop Spark R    DecisionTree classification Hadoop Spark R   Random forest classification Hadoop Spark R isotonic regression ",
+  "scenarios": [
+    {
+      "title": "实验一：Spark安装配置实验",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-base",
+      "steps": [
+        {
+          "title": "实验一：Spark安装配置实验",
+          "text": "scenarios/实验一：Spark安装配置实验.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验二：Spark WordCount实验",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验二：Spark WordCount实验",
+          "text": "scenarios/实验二：Spark WordCount实验.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验三：Spark计算平均年龄",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验三：Spark计算平均年龄",
+          "text": "scenarios/实验三：Spark计算平均年龄.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验四：流式实时日志分析",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验四：流式实时日志分析",
+          "text": "scenarios/实验四：流式实时日志分析.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验五：Spark+R统计分析飞机乘客年龄分布",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验五：Spark+R统计分析飞机乘客年龄分布",
+          "text": "scenarios/实验五：Spark+R统计分析飞机乘客年龄分布.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验六：SparkR als",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验六：SparkR als",
+          "text": "scenarios/实验六：SparkR als.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验七 Spark  R bisectingKmeans",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验七 Spark  R bisectingKmeans",
+          "text": "scenarios/实验七 Spark  R bisectingKmeans.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验八 Spark  R fpm",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验八 Spark  R fpm",
+          "text": "scenarios/实验八 Spark  R fpm.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验九 Spark  R k-means",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验九 Spark  R k-means",
+          "text": "scenarios/实验九 Spark  R k-means.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验十 Spark  R kstest",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验十 Spark  R kstest",
+          "text": "scenarios/实验十 Spark  R kstest.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验十一 Spark  R naiveBayes",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验十一 Spark  R naiveBayes",
+          "text": "scenarios/实验十一 Spark  R naiveBayes.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验十二：SparkR  AFT  survival regression",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验十二：SparkR  AFT  survival regression",
+          "text": "scenarios/实验十二：SparkR  AFT  survival regression.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验十三：SparkR   svmLinear",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验十三：SparkR   svmLinear",
+          "text": "scenarios/实验十三：SparkR   svmLinear.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验十四：SparkR generalized linear model",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验十四：SparkR generalized linear model",
+          "text": "scenarios/实验十四：SparkR generalized linear model.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验十五：SparkR   gaussian mixture clustering",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验十五：SparkR   gaussian mixture clustering",
+          "text": "scenarios/实验十五：SparkR   gaussian mixture clustering.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验十六：SparkR  GBT classification",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验十六：SparkR  GBT classification",
+          "text": "scenarios/实验十六：SparkR  GBT classification.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验十七：SparkR     DecisionTree classification",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验十七：SparkR     DecisionTree classification",
+          "text": "scenarios/实验十七：SparkR     DecisionTree classification.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验十八：SparkR   Random forest classification",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验十八：SparkR   Random forest classification",
+          "text": "scenarios/实验十八：SparkR   Random forest classification.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    },
+    {
+      "title": "实验十九：SparkR isotonic regression",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+      "steps": [
+        {
+          "title": "实验十九：SparkR isotonic regression",
+          "text": "scenarios/实验十九：SparkR isotonic regression.md",
+		  "program": "scripts/pre.sh",
+          "extraTab": "[domain]:[:5678]/desktop.html"
+        }
+      ]
+    }
+  ]
+}
