@@ -47,6 +47,6 @@ library(ggplot2)
 ggplot(ages,aes(x=age,y=count))+geom_bar(stat='identity')
 ```
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/20160120161840212_20180928075346.046.png)
+![](/pictures/20160120161840212_20180928075346.046.png)
 
 可以看到,用户的年龄主要集中在20到30岁之间

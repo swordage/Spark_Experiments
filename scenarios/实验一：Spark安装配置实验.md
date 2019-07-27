@@ -184,7 +184,7 @@ export JAVA_HOME=${JAVA_HOME}
 
 有如下进程，说明Hadoop正常启动
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/1-3_20171106142102.002.png)
+![](/pictures/1.png)
 
 
 #### 二、安装配置Scala环境
@@ -290,28 +290,28 @@ cp slaves.template slaves
       10
 ```
 
-![输入命令](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/启动命令_20180410050850.050.png)
+![输入命令](/pictures/启动命令_20180410050850.050.png)
 
 3. 执行结果如下图所示，执行成功！
 
-![执行结果](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/执行结果_20180410050853.053.png)
+![执行结果](/pictures/执行结果_20180410050853.053.png)
 
 本次执行的任务结果保存在hdfs中，下面查看保存在HDFS中的计算出的Pi值
 
 4. 在浏览器输入 **localhsot:8088**，结果如下：
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/webui_20180410051117.017.png)
+![](/pictures/webui_20180410051117.017.png)
 
 5. 点击上图箭头所示位置，进入任务详细页面
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/logs_20180410050838.038.png)
+![](/pictures/logs_20180410050838.038.png)
 
 6. 点击logs，查看执行日志
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/logs-1_20180410050842.042.png)
+![](/pictures/logs-1_20180410050842.042.png)
 
 7. 点击stdout，查看输出结果
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/result_20180410050844.044.png)
+![](/pictures/result_20180410050844.044.png)
 
 可以看到计算的Pi值，改变执行命令的最后一个参数，能够获得不同精确度的Pi值。

@@ -3,10 +3,10 @@
 
 # 实验原理
 - map(func)：数据集中的每个元素经过用户自定义的函数转换形成一个新的RDD，新的RDD叫MappedRDD
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/3-1_20180410100618.018.png)
+![](/pictures/3-1_20180410100618.018.png)
 
 - flatMap(func):与map类似，但每个元素输入项都可以被映射到0个或多个的输出项，最终将结果”扁平化“后输出
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/3-2_20180410100621.021.png)
+![](/pictures/3-2_20180410100621.021.png)
 
 - reduce
 def reduce(f: (T, T) ⇒ T): T
@@ -129,7 +129,7 @@ public class AverageAge {
 
 选择保存路径为 /usr/local/spark，文件名为 AverageAge.jar
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/3-3_20180410095039.039.png)
+![](/pictures/3-3_20180410095039.039.png)
 
 依次点击OK即可
 
@@ -154,4 +154,4 @@ public class AverageAge {
 
 #### 4. 查看结果
 本次实验使用deploy-mode client模式，执行结果可直接输出到控制台，查看控制台输出的结果。
-![实验结果](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/3-4_20180410095044.044.png)
+![实验结果](/pictures/3-4_20180410095044.044.png)

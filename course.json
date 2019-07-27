@@ -7,6 +7,7 @@
     {
       "title": "实验一：Spark安装配置实验",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-base",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验一：Spark安装配置实验",
@@ -19,6 +20,7 @@
     {
       "title": "实验二：Spark WordCount实验",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验二：Spark WordCount实验",
@@ -31,6 +33,7 @@
     {
       "title": "实验三：Spark计算平均年龄",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验三：Spark计算平均年龄",
@@ -43,6 +46,7 @@
     {
       "title": "实验四：流式实时日志分析",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验四：流式实时日志分析",
@@ -55,6 +59,7 @@
     {
       "title": "实验五：Spark+R统计分析飞机乘客年龄分布",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验五：Spark+R统计分析飞机乘客年龄分布",
@@ -67,6 +72,7 @@
     {
       "title": "实验六：SparkR als",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验六：SparkR als",
@@ -79,6 +85,7 @@
     {
       "title": "实验七 Spark  R bisectingKmeans",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验七 Spark  R bisectingKmeans",
@@ -91,6 +98,7 @@
     {
       "title": "实验八 Spark  R fpm",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验八 Spark  R fpm",
@@ -103,6 +111,7 @@
     {
       "title": "实验九 Spark  R k-means",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验九 Spark  R k-means",
@@ -115,6 +124,7 @@
     {
       "title": "实验十 Spark  R kstest",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验十 Spark  R kstest",
@@ -127,6 +137,7 @@
     {
       "title": "实验十一 Spark  R naiveBayes",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验十一 Spark  R naiveBayes",
@@ -139,6 +150,7 @@
     {
       "title": "实验十二：SparkR  AFT  survival regression",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验十二：SparkR  AFT  survival regression",
@@ -151,6 +163,7 @@
     {
       "title": "实验十三：SparkR   svmLinear",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验十三：SparkR   svmLinear",
@@ -163,6 +176,7 @@
     {
       "title": "实验十四：SparkR generalized linear model",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验十四：SparkR generalized linear model",
@@ -175,6 +189,7 @@
     {
       "title": "实验十五：SparkR   gaussian mixture clustering",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验十五：SparkR   gaussian mixture clustering",
@@ -187,6 +202,7 @@
     {
       "title": "实验十六：SparkR  GBT classification",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验十六：SparkR  GBT classification",
@@ -199,6 +215,7 @@
     {
       "title": "实验十七：SparkR     DecisionTree classification",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验十七：SparkR     DecisionTree classification",
@@ -211,6 +228,7 @@
     {
       "title": "实验十八：SparkR   Random forest classification",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验十八：SparkR   Random forest classification",
@@ -223,6 +241,7 @@
     {
       "title": "实验十九：SparkR isotonic regression",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-hadoop",
+	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "实验十九：SparkR isotonic regression",

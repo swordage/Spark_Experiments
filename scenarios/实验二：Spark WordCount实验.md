@@ -123,11 +123,11 @@ public final class WordCount {
 
 在eclipse中，右键点击项目名，点击Export，选择Java >> JAR file
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/2_20180410073834.034.png)
+![](/pictures/2_20180410073834.034.png)
 
 选择保存路径为 /usr/local/spark，文件名为 WordCount.jar
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/3_20180410073838.038.png)
+![](/pictures/3_20180410073838.038.png)
 
 依次点击OK即可
 
@@ -138,7 +138,7 @@ public final class WordCount {
 
 ls命令可以查看刚导出的WordCount.jar文件
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/4_20180410073841.041.png)
+![](/pictures/4_20180410073841.041.png)
 
 2. 编辑要统计的文件
 在spark目录下执行：
@@ -174,22 +174,22 @@ word count
 
 查看执行结果
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/5_20180410073844.044.png)
+![](/pictures/5_20180410073844.044.png)
 
 #### 三、查看运行结果
 
 在浏览器输入 localhost:8088
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/6_20180410073847.047.png)
+![](/pictures/6_20180410073847.047.png)
 
 点击箭头所指位置
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/7_20180410073851.051.png)
+![](/pictures/7_20180410073851.051.png)
 
 点击logs
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/8_20180410073853.053.png)
+![](/pictures/8_20180410073853.053.png)
 
 查看最终结果
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/9_20180410073856.056.png)
+![](/pictures/9_20180410073856.056.png)
